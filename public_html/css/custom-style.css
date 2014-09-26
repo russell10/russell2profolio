@@ -1,13 +1,56 @@
-div {
+body{
+      width: 100%;
+    background-image: url('http://www.si.com/sites/default/files/2014/03/ty-lawson-crossover.gif')    
+; 
+}
+h1{
+     width: 100%;
+    text-align: center;
     border-style: solid;
-    border-width: 30px;
+    border-width: 1px;
+    border-color: black; 
+    padding: 30px;
+}
+h2{
+     width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black; 
+    padding: 30px;
+}
+.list-group-item{
+      padding: auto;
+    margin: auto;
+    text-align: center;
+}
+ul{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border:solid black 5px;
+    padding: auto; 
+}
+div{
+    width: 100%;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black; 
     padding: 30px;
 }
 
 .container {
-    border-color: red;
+    padding: auto;
+    margin: auto;
+    border-color:red;
 }
 
 .row {
-   border-color: blue; 
+   border-color:black; 
 }
